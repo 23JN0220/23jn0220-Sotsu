@@ -4,10 +4,6 @@
   require_once './helpers/Category_GroupDAO.php';
   require_once './helpers/MakerDAO.php';
 
-  if(session_status() === PHP_SESSION_NONE){
-      session_start();
-  }
-
   if(!empty($_SESSION['member'])){
       $member=$_SESSION['member'];
   }
