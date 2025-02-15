@@ -1,0 +1,8 @@
+.contains{
+    display:block;
+    float: left;
+}
+.list{
+    display: flex;
+}
+

@@ -1,0 +1,66 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(200, 199, 241);
+}
+
+
+
+.center {
+    width: fit-content;
+    margin: auto;
+    font-size: 24px;
+}
+
+/* ここから追記部分 */
+/*直下のlabelタグの内容を変えないでください*/
+label {
+    font-size: 24px;
+   
+    display: inline-block;
+    
+    /*vertical-align: top;*/
+}
+/*div{
+    margin-left: 450px;
+}*/
+#btn2{
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #68b20d 0%, #22ff00 100%);
+  transition: .4s;
+  margin-left: 600px;
+}
+  #btn1{
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #999999 0%, #999999 100%);
+  transition: .4s;
+  margin-right: 310px;
+  margin-left: 50px;
+  
+}
+.col-md-auto {
+    margin-top: 8px;
+}
+.credit-card{
+    margin-top: 20px;
+}
+#csc{
+    margin: -33px 0px 0px 50px;  
+}
+#home{
+    margin: -38px -100px 40px 0px;
+}
+
+

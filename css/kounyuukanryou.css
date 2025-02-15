@@ -1,0 +1,23 @@
+
+.kounyuukanryou_center{
+  text-align:  center;
+}
+.kounyuukanryou_neko {
+    width: 550px;
+    margin: auto;
+    display: block;
+    text-align:  center;
+  }
+
+  p{
+    font-size: 30px;
+    margin: auto;
+    display: block; 
+    text-align:  center; 
+  }
+  p.top{
+    font-size: 30px;
+    margin: auto;
+    display: block; 
+    text-align:  center;
+  }

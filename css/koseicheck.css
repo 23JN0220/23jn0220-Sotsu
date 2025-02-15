@@ -1,0 +1,54 @@
+table{
+    place-items: center;
+    table-layout: auto;
+    margin: 0 auto;
+}
+.buttons{
+    text-align: center;
+}
+.delete{
+    width: 150px;
+    
+}
+.img{
+    width: 300px;
+}
+.price{
+    width: 100px;
+}
+.detail{
+    width: 400px;
+}
+.delete{
+    width: 100px;
+    margin-top: -20px;
+}
+.add{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -23px;
+    margin-right: 25px;
+}
+.reset{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 400px;
+}
+.buttons{
+    position: relative;
+    top: 50px;
+}
+.result{
+    width: 700px;
+    position: relative;
+
+}
+#btn2{
+    margin-left: 600px;
+}
+#btn1{
+    margin-right: 310px;
+    margin-left: 50px;
+}

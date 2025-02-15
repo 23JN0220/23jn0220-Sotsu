@@ -1,0 +1,31 @@
+h2{
+    font-size: 45px;
+}
+
+hr{
+    border-bottom: solid 5px #a5ddff;
+}
+
+p{
+    font-size: 25px;
+}
+
+input{
+    font-size: 20px;
+    text-align: right;
+}
+.delete{
+    text-align: right;
+
+}
+
+button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    color: #000000;
+    background: #d8ffff;
+    border-radius : 25px;
+}

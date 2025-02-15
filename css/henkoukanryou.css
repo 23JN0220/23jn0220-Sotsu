@@ -1,0 +1,13 @@
+.henkoukanryou {
+  text-align: center;
+  padding: 5vh 2vw;
+  font-size: 30px;  
+}
+.henkou_message{
+  height:3em;
+  text-align: center;
+}
+.henkou_button{
+  text-align: center;
+  height:3em;
+  }

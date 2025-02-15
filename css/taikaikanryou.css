@@ -1,0 +1,13 @@
+.taikaikanryou_center {
+    place-items: center;
+    padding: 5vh 2vw;
+  }
+  h1{
+    font-size: 50px;
+  }
+  p.top{
+    font-size: 30px;
+    margin: auto;
+    display: block; 
+    text-align:  center;
+  }
