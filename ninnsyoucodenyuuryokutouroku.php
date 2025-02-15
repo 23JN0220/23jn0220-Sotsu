@@ -1,9 +1,8 @@
-
 <?php
+ob_start();
 require_once './helpers/MemberDAO.php';
 
-    session_start();
-
+session_start();
 
 if(empty($_SESSION['email'])){
     header('Location: top.php');
@@ -24,6 +23,7 @@ if(empty($_SESSION['member'])){
     
 }
 elseif($enterTheCode==$key){
+    ob_end_clean();
     header('Location: torokukannryou.php');
     exit;
 }
