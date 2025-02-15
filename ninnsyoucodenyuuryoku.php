@@ -1,9 +1,9 @@
 
 <?php
 require_once './helpers/MemberDAO.php';
-if(session_status() === PHP_SESSION_NONE){
-    session_start();
-}
+//if(session_status() === PHP_SESSION_NONE){
+//    session_start();
+//}
 if(empty($_SESSION['email'])){
     header('Location: top.php');
     exit;
