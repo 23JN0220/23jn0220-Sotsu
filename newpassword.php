@@ -1,9 +1,9 @@
-
 <?php
+ob_start();
 require_once './helpers/MemberDAO.php';
-if(session_status() === PHP_SESSION_NONE){
-    session_start();
-}
+
+session_start();
+
 
 if(!empty($_SESSION['member'])){
     header('Location: mypage.php');
@@ -31,6 +31,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     elseif ($npassword === $cpassword){
         $_SESSION['email']=$email;
         $_SESSION['npassword']=$npassword;
+        ob_end_clean();
         header('Location: newpasswordchange.php');
     }
 
