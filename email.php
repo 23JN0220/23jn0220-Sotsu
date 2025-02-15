@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require_once './helpers/MemberDAO.php';
 
 if(session_status() === PHP_SESSION_NONE){
@@ -79,6 +80,7 @@ try {
 
     // 送信
     $mail->send();
+    ob_end_clean();
     if(empty($_SESSION['member'])){
         
         header('Location:ninnsyoucodenyuuryoku.php');
