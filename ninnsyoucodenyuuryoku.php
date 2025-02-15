@@ -1,5 +1,5 @@
-
 <?php
+ob_start();
 require_once './helpers/MemberDAO.php';
 
 session_start();
@@ -24,6 +24,7 @@ if(empty($_SESSION['member'])){
 }
 elseif($enterTheCode==$key){
     $_SESSION['auth'] = true;
+    ob_end_clean();
     header('Location: henkoukanryou.php');
     exit;
 }
