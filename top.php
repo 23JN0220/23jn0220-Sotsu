@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+require_once './helpers/MemberDAO.php';
 require_once './helpers/GoodsDAO.php';
 require_once './helpers/Category_GroupDAO.php';
 
