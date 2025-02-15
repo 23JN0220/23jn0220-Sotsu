@@ -5,6 +5,7 @@
   require_once './helpers/MakerDAO.php';
 
   if(session_status() === PHP_SESSION_NONE){
+    error_log("Debug: Script started", 0);
       session_start();
   }
 
