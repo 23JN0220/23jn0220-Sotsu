@@ -1,0 +1,50 @@
+.goodsreview{
+    place-items: center;
+    text-align:center;
+}
+table{
+    text-align:center;
+    width: 1000px;
+    table-layout: auto;
+    margin: 0 auto;
+}
+.img{
+    width: 100px;
+}
+.goodsinfo{
+    width: 250px;
+}
+.select{
+    width: 50px;
+}
+td{
+    text-align: center;
+    
+}
+input{
+    margin: 0.4rem 0;
+}
+.num{
+    font-size: 24px;
+    color: gold;
+}
+.button p{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#text{
+    margin-top: 12px;
+}
+.button{
+    margin-bottom: -12px;
+    text-align: center;
+}
+#btn{
+    margin-top: 12px;
+    float: left;
+}
+.goods{
+    display: flex;
+}
+

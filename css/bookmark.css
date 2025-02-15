@@ -1,0 +1,20 @@
+.bookmark_center{
+ 
+    place-items: center;
+    padding: 5vh 2vw;
+  }
+table{
+    text-align:center;
+    width: 650px;
+    height: 5px;
+    font-size: 20px;  
+    
+}
+
+input[name=delete]{
+    font-size: 35px;
+    width: 200px;
+position:static;
+margin-top: 20px;
+margin-left: 450px;
+}

@@ -1,0 +1,24 @@
+.footer_top{
+    margin-top: 20px;
+}
+.footer_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+/***トップへ戻るボタン***/
+#page-top {
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    background: #fff; /*背景色*/
+    color: #666; /*文字色*/
+    transition: .3s;
+}
+/***マウスオーバー時***/
+#page-top:hover {
+    background: #666; /*背景色*/
+    color: #fff; /*文字色*/
+}

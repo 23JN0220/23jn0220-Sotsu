@@ -1,0 +1,37 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(222, 243, 243);
+}
+p.font{
+    font-size: 30px;
+    text-align: center;  
+}
+div.haisousentaku_center{
+    font-size: 30px;
+    text-align: center;  
+}
+p.bacgo{
+    font-size: 30px;
+    text-align: center;  
+    color: #000;
+       }
+/***トップへ戻るボタン***/
+#page-top {
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    background: #fff; /*背景色*/
+    color: #666; /*文字色*/
+    transition: .3s;
+}
+/***マウスオーバー時***/
+#page-top:hover {
+    background: #666; /*背景色*/
+    color: #fff; /*文字色*/
+}
+#load{
+    margin: -84px -120px 91px 0px;
+}
+/***トップへ戻るボタンここまで***/

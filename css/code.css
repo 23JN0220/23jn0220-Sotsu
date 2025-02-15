@@ -1,0 +1,10 @@
+
+.code_center{
+    place-items: center;
+    padding: 5vh 2vw;
+   
+  }
+  .btn_code{
+    width: 8em;
+    height:2em; 
+}

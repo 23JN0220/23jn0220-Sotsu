@@ -1,0 +1,48 @@
+h1{
+    font-size: 30px;
+}
+
+hr{
+    background-color: steelblue;
+    height: 5px;
+}
+.cart_img{
+    width: 200px;
+}
+.cart_detail{
+    width: 400px;
+}
+.cart_price{
+    width: 100px ;
+}
+input[name="cart_change"]{
+    border: solid 1px #CCC;
+    color: #225496;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: none;
+}
+input[name="cart_delete"]{
+    border: solid 1px #CCC;
+    color: #225496;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: none;
+}
+table{
+    margin: 0 auto ;
+}
+.cart_buttons{
+    
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.cart_center{
+    place-items: center;
+    
+}
