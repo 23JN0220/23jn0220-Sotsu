@@ -14,7 +14,7 @@ if (isset($_SESSION['email'])) {
 }
 if (isset($_SESSION['key'])) {
     $key=$_SESSION['key'];
-    var_dump($key);
+    //var_dump($key);
     //var_dump($email);
 }
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
